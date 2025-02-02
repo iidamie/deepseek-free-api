@@ -21,23 +21,14 @@ const MAX_RETRY_COUNT = 3;
 const RETRY_DELAY = 5000;
 // 伪装headers
 const FAKE_HEADERS = {
-  Accept: "*/*",
-  "Accept-Encoding": "gzip, deflate, br, zstd",
-  "Accept-Language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
-  Origin: "https://chat.deepseek.com",
-  Pragma: "no-cache",
-  Priority: "u=1, i",
-  Referer: "https://chat.deepseek.com/",
-  "Sec-Ch-Ua":
-    '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
-  "Sec-Ch-Ua-Mobile": "?0",
-  "Sec-Ch-Ua-Platform": '"Windows"',
-  "Sec-Fetch-Dest": "empty",
-  "Sec-Fetch-Mode": "cors",
-  "Sec-Fetch-Site": "same-origin",
-  "User-Agent":
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
-  "X-App-Version": "20241129.1"
+  'User-Agent': 'DeepSeek/1.0.7 Android/34',
+  'Accept': 'application/json',
+  'Accept-Encoding': 'gzip',
+  'x-client-platform': 'android',
+  'x-client-version': '1.0.7',
+  'x-client-locale': 'zh_CN',
+  'x-rangers-id': '',
+  'accept-charset': 'UTF-8'
 };
 const EVENT_COMMIT_ID = '41e9c7b1';
 // 当前IP地址
